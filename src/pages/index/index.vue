@@ -6,7 +6,7 @@
                 {{ title }}
             </text>
             <uni-view class="flex-c color-red w-200 h-200 shadow-md center rounded-md">
-                :class
+                这是内容区
             </uni-view>
             <view v-for="(item, index) in 3" :key="index">
                 {{ item }}

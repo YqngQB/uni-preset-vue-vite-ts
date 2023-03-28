@@ -10,5 +10,20 @@
         "src/uni_modules/uni-pagination/components/uni-pagination/i18n",
         "src/uni_modules/uni-popup/components/uni-popup/i18n",
         "src/uni_modules/uni-search-bar/components/uni-search-bar/i18n"
-    ]
+    ],
+    "editor.tabSize": 2,
+  
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
