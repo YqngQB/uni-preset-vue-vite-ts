@@ -39,19 +39,19 @@ module.exports = {
 
     // it needs to match the value for field type. Eg.: 'fix'
     /*
-  scopeOverrides: {
-    fix: [
+scopeOverrides: {
+  fix: [
 
-      {name: 'merge'},
-      {name: 'style'},
-      {name: 'e2eTest'},
-      {name: 'unitTest'}
-    ]
-  },
-  */
+    {name: 'merge'},
+    {name: 'style'},
+    {name: 'e2eTest'},
+    {name: 'unitTest'}
+  ]
+},
+*/
     // override the messages, defaults are as follows
     messages: {
-        type: "Select the type of change that you're committing:",
+        type: '选择要提交的类型',
         scope: '\nDenote the SCOPE of this change (optional):',
         // used if allowCustomScopes is true
         customScope: 'Denote the SCOPE of this change:',
